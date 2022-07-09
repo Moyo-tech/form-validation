@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assests/images/mylogo.png"
+    />
+    <link rel="stylesheet" href="./assests/style.css" />
+
+    <title>Intro component with sign up form</title>
+  </head>
+
+  <body>
+    <header class="main">
+      <h1 class="main__heading">
+        Learn to code by <br />
+        watching others
+      </h1>
+      <p class="main__para">
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+    </header>
+
+    <main class="section-form">
+      <div class="form-head">
+        <p><strong> Try it free 7 days </strong> then $20/mo. thereafter</p>
+      </div>
+
+      <div class="container">
+        <form action="#" name="trialForm" > 
+          <input name="firstName" type="text" placeholder="First Name" />
+          <!-- <p class="error-messsage">First Name cannot be empty</p> -->
+
+          <input name="lastName" type="text" placeholder="Last Name"  />
+          <!-- <p class="error-messsage">Last Name cannot be empty</p> -->
+
+          <input name="email" type="email" placeholder="Email Address"  />
+          <!-- <p class="error-messsage">Email cannot be empty</p> -->
+
+          <input name="password" type="password" placeholder="Password"/>
+          <!-- <p class="error-messsage">Password cannot be empty</p> -->
+
+          <button type="submit" class="submit">CLAIM YOUR FREE TRIAL</button>
+        </form>
+
+        <p class="terms-condition">
+          By clicking the button, you are agreeing to our
+          <span> Terms and Services </span>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.linkedin.com/in/moyosore-weke-4707441b3/"
+          target="_blank"
+          >Moyosore Weke</a
+        >.
+      </p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
