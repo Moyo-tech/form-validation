@@ -39,7 +39,6 @@ body {
   top: -150px;
   left: -130px;
 }
-
 .form-head {
   position: relative;
   /* border: 2px solid white; */
@@ -52,19 +51,23 @@ body {
   background-color: #5e54a4;
   box-shadow: 0 8px 2px -2px rgba(0, 0, 0, 0.4);
 }
+
 .form-head p {
   color: white;
   padding: 10px;
 }
 
-.container {
+/* Container of the DIV  */
+.container { 
   height: 390px;
   border-radius: 10px;
   padding: 40px;
   background-color: white;
   box-shadow: 0 8px 2px -2px rgba(0, 0, 0, 0.4);
 }
+/* FORM INPUT TAGS */
 .container input {
+  position: relative;
   width: 100%;
   padding: 10px;
   margin-bottom: 17px;
@@ -72,12 +75,24 @@ body {
   border-radius: 5px;
   outline: none;
 }
+/* ERROR ICON */
+.error-icon{
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 370px;
+  top: -50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* ERROR MESSAGE */
 .error-messsage{
     position: relative;
     font-size: 11px;
     color: #ff7979;
     text-align: right;
-    top: -20px;
+    left: 310px;
+    top: -25px;
 }
 
 .submit {
@@ -155,6 +170,7 @@ body {
   .form-head {
     height: 40px;
   }
+
   .form-head p {
     font-size: 14px;
   }
@@ -179,6 +195,7 @@ body {
     position: relative;
     top: -30px;
   }
+ 
 }
 @media (max-width: 600px) {
   body {
